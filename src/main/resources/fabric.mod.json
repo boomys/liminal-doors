@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "liminaldoors",
+	"version": "${version}",
+	"name": "Liminal Doors",
+	"description": "An original liminal-horror mod: step through an ordinary door into an endless sequence of empty rooms, and something follows you.",
+	"authors": [
+		"boomys"
+	],
+	"contact": {},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.boomys.liminaldoors.LiminalDoors"
+		],
+		"client": [
+			"dev.boomys.liminaldoors.client.LiminalDoorsClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
