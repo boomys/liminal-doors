@@ -1,0 +1,29 @@
+# Gradle
+.gradle/
+build/
+out/
+classes/
+
+# Local toolchain installed for building (JDK + Gradle)
+.toolchain/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+
+# Fabric / Minecraft run directory
+run/
+remappedSrc/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
